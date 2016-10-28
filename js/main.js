@@ -1,5 +1,8 @@
 $(window).load(function(){
   splash();
+  $(document).on('click', '#enter', function(){
+    console.log('aaa');
+  });
 });
 
 function splash(){
