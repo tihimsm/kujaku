@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, main, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -105,6 +106,31 @@ a {
 }
 
 #slide7 {
+  display: -webkit-box;
+  /* safari, Chrome */
+  display: -moz-box;
+  /* Firefox */
+  display: -o-box;
+  /* Opera */
+  display: -ms-box;
+  /* IE */
+  display: box;
+  /* ベンダープレフィックスなし */
   background-image: url("../img/02.jpg");
   background-size: contain;
+  vertical-align: middle;
+  -webkit-box-align: center;
+  /* safari, Chrome */
+  -moz-box-align: center;
+  /* Firefox */
+  -o-box-align: center;
+  /* Opera */
+  -ms-box-align: center;
+  /* IE */
+  box-align: center;
+  /* ベンダープレフィックスなし */
+}
+#slide7 span {
+  margin: 0 auto;
+  display: block;
 }

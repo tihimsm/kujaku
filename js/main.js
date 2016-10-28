@@ -61,7 +61,7 @@ function splash(){
               });
               $('#slide7').transition({
                 opacity: 1,
-              }, 4000);
+              }, 3000);
             });
           });
         });
