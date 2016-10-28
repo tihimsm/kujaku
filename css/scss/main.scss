@@ -1,6 +1,7 @@
 #slide_cont {
   cursor: none;
   position: relative;
+  position: fixed;
 }
 
 .slide {
@@ -67,21 +68,42 @@
   }
 }
 
-#enter_cont {
-  display: -webkit-box; /* safari, Chrome */
-  display: -moz-box;    /* Firefox */
-  display: -o-box;      /* Opera */
-  display: -ms-box;     /* IE */
-  display: box;         /* ベンダープレフィックスなし */
+// #enter_cont {
+//   display: -webkit-box; /* safari, Chrome */
+//   display: -moz-box;    /* Firefox */
+//   display: -o-box;      /* Opera */
+//   display: -ms-box;     /* IE */
+//   display: box;         /* ベンダープレフィックスなし */
+//   -webkit-box-align: center; /* safari, Chrome */
+//   -moz-box-align: center;    /* Firefox */
+//   -o-box-align: center;      /* Opera */
+//   -ms-box-align: center;     /* IE */
+//   box-align: center;         /* ベンダープレフィックスなし */
+//   span {
+//     margin: 0 auto;
+//     display: block;
+//     font-size: 1.5rem;
+//     color: #000;
+//     -webkit-transition: 0.5s;
+//     -moz-transition: 0.5s;
+//     -o-transition: 0.5s;
+//     -ms-transition: 0.5s;
+//     transition: 0.5s;
+//   }
+//   span:hover {
+//     cursor: pointer;
+//     color: #eee;
+//     text-shadow: -1px 1px 5px #000, 1px -1px 5px #000;
+//   }
+// }
+
+#enter_center {
+  position: relative;
   vertical-align: middle;
-  -webkit-box-align: center; /* safari, Chrome */
-  -moz-box-align: center;    /* Firefox */
-  -o-box-align: center;      /* Opera */
-  -ms-box-align: center;     /* IE */
-  box-align: center;         /* ベンダープレフィックスなし */
-  span {
-    margin: 0 auto;
-    display: block;
+  p {
+    position: absolute;
+    top: 45%;
+    left: 48%;
     font-size: 1.5rem;
     color: #000;
     -webkit-transition: 0.5s;
@@ -89,11 +111,9 @@
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
     transition: 0.5s;
-    // background: -webkit-linear-gradient(#222, #999);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
   }
-  span:hover {
+  p:hover {
+    cursor: pointer;
     color: #eee;
     text-shadow: -1px 1px 5px #000, 1px -1px 5px #000;
   }

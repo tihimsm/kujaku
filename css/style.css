@@ -60,6 +60,7 @@ a {
 #slide_cont {
   cursor: none;
   position: relative;
+  position: fixed;
 }
 
 .slide {
@@ -136,32 +137,14 @@ a {
   display: block;
 }
 
-#enter_cont {
-  display: -webkit-box;
-  /* safari, Chrome */
-  display: -moz-box;
-  /* Firefox */
-  display: -o-box;
-  /* Opera */
-  display: -ms-box;
-  /* IE */
-  display: box;
-  /* ベンダープレフィックスなし */
+#enter_center {
+  position: relative;
   vertical-align: middle;
-  -webkit-box-align: center;
-  /* safari, Chrome */
-  -moz-box-align: center;
-  /* Firefox */
-  -o-box-align: center;
-  /* Opera */
-  -ms-box-align: center;
-  /* IE */
-  box-align: center;
-  /* ベンダープレフィックスなし */
 }
-#enter_cont span {
-  margin: 0 auto;
-  display: block;
+#enter_center p {
+  position: absolute;
+  top: 45%;
+  left: 48%;
   font-size: 1.5rem;
   color: #000;
   -webkit-transition: 0.5s;
@@ -170,7 +153,8 @@ a {
   -ms-transition: 0.5s;
   transition: 0.5s;
 }
-#enter_cont span:hover {
+#enter_center p:hover {
+  cursor: pointer;
   color: #eee;
   text-shadow: -1px 1px 5px #000, 1px -1px 5px #000;
 }
