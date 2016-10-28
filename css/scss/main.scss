@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.slide_pict {
+.slide {
   position: absolute;
   background-repeat: no-repeat;
   opacity: 0;
@@ -64,5 +64,36 @@
     margin: 0 auto;
     display: block;
   }
+}
 
+#enter_cont {
+  display: -webkit-box; /* safari, Chrome */
+  display: -moz-box;    /* Firefox */
+  display: -o-box;      /* Opera */
+  display: -ms-box;     /* IE */
+  display: box;         /* ベンダープレフィックスなし */
+  vertical-align: middle;
+  -webkit-box-align: center; /* safari, Chrome */
+  -moz-box-align: center;    /* Firefox */
+  -o-box-align: center;      /* Opera */
+  -ms-box-align: center;     /* IE */
+  box-align: center;         /* ベンダープレフィックスなし */
+  span {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.curtain {
+  top: 0px;
+  width: 50%;
+  background-color: black;
+}
+
+.curtain_left {
+  left: 0px;
+}
+
+.curtain_right {
+  right: 0px;
 }

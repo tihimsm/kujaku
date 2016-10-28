@@ -59,8 +59,11 @@ function splash(){
               }, 1500 ,function(){
                 $(this).remove();
               });
-              $('#slide7').transition({
+              $('#slide7, #enter_cont').transition({
                 opacity: 1,
+              }, 3000);
+              $('.curtain').transition({
+                opacity: 0.5,
               }, 3000);
             });
           });
