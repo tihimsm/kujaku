@@ -76,7 +76,7 @@ function splash(){
                 opacity: 1,
               }, 3000);
               $('.curtain').transition({
-                opacity: 0.5,
+                opacity: 0.3,
               }, 3000);
               $('#slide_cont').css('cursor', 'auto');
             });

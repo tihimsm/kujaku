@@ -82,7 +82,7 @@
   span {
     margin: 0 auto;
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #000;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -94,7 +94,7 @@
     // -webkit-text-fill-color: transparent;
   }
   span:hover {
-    color: #bbb;
+    color: #eee;
     text-shadow: -1px 1px 5px #000, 1px -1px 5px #000;
   }
 }
