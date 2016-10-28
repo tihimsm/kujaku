@@ -1,19 +1,6 @@
 $(window).load(function(){
   splash();
-  // $('#enter_cont span').mouseover(function(e){
-  //   changeColor(this, 'in');
-  // }).mouseout(function(e) {
-  //   changeColor(this, 'out');
-  // });
 });
-
-function changeColor(element, type){
-  if(type === 'in'){
-    $(element).animate({'background':'-webkit-linear-gradient(#999, #222)', '-webkit-background-clip':'text', '-webkit-text-fill-color':'transparent'}, { duration: 'slow', easing: 'swing', });
-  }else if(type === 'out'){
-    $(element).animate({'background':'-webkit-linear-gradient(#222, #999)', '-webkit-background-clip':'text', '-webkit-text-fill-color':'transparent'}, { duration: 'slow', easing: 'swing', });
-  }
-}
 
 function splash(){
   $('#slide1').transition({
