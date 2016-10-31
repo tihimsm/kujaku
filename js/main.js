@@ -1,7 +1,25 @@
 $(window).load(function(){
   splash();
   $(document).on('click', '#enter', function(){
-    console.log('aaa');
+    $(this).transition({
+      opacity: 0
+    }, 500, function(){
+      $('#enter_cont').remove();
+    });
+    $('.curtain_right').transition({
+      right: '-100%',
+      skewX: '40deg',
+      borderBottomLeftRadius: '100% 100%'
+    }, 1000, function(){
+      $(this).remove();
+    });
+    $('.curtain_left').transition({
+      left: '-100%',
+      skewX: '-40deg',
+      borderBottomRightRadius: '100% 100%'
+    }, 1000, function(){
+      $(this).remove();
+    });
   });
 });
 
@@ -67,7 +85,7 @@ function splash(){
               }, 3000);
               $('.curtain').transition({
                 opacity: 0.3,
-              }, 3000);
+              }, 500);
               $('#slide_cont').css('cursor', 'auto');
             });
           });

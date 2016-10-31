@@ -68,35 +68,6 @@
   }
 }
 
-// #enter_cont {
-//   display: -webkit-box; /* safari, Chrome */
-//   display: -moz-box;    /* Firefox */
-//   display: -o-box;      /* Opera */
-//   display: -ms-box;     /* IE */
-//   display: box;         /* ベンダープレフィックスなし */
-//   -webkit-box-align: center; /* safari, Chrome */
-//   -moz-box-align: center;    /* Firefox */
-//   -o-box-align: center;      /* Opera */
-//   -ms-box-align: center;     /* IE */
-//   box-align: center;         /* ベンダープレフィックスなし */
-//   span {
-//     margin: 0 auto;
-//     display: block;
-//     font-size: 1.5rem;
-//     color: #000;
-//     -webkit-transition: 0.5s;
-//     -moz-transition: 0.5s;
-//     -o-transition: 0.5s;
-//     -ms-transition: 0.5s;
-//     transition: 0.5s;
-//   }
-//   span:hover {
-//     cursor: pointer;
-//     color: #eee;
-//     text-shadow: -1px 1px 5px #000, 1px -1px 5px #000;
-//   }
-// }
-
 $trans_speed: 0.3s;
 #enter_center {
   position: relative;
@@ -133,3 +104,47 @@ $trans_speed: 0.3s;
 .curtain_right {
   right: 0px;
 }
+
+.shoji {
+  position: relative;
+  width: 47.5%;
+  background-color: #fff;
+  float: left;
+}
+
+.shoji_raw {
+  height: 30.66%;
+}
+
+.shoji_top {
+  margin-top: 3%;
+}
+
+.shoji_middle {
+  margin: 1% 0;
+}
+
+.shoji_bottom {
+  margin-bottom: 3%;
+}
+
+.shoji_left {
+  margin: 0 0.5% 0 2%;
+}
+
+.shoji_right {
+  margin: 0 2% 0 0.5%;
+}
+
+.geo_pattern {
+  box-sizing: border-box;
+}
+
+#geo_pattern1 {
+  width: 32.66%;
+  height: 65.32%;
+  border-right: thick solid #000;
+  border-bottom: thick solid #000;
+}
+
+

@@ -172,3 +172,45 @@ a {
 .curtain_right {
   right: 0px;
 }
+
+.shoji {
+  position: relative;
+  width: 47.5%;
+  background-color: #fff;
+  float: left;
+}
+
+.shoji_raw {
+  height: 30.66%;
+}
+
+.shoji_top {
+  margin-top: 3%;
+}
+
+.shoji_middle {
+  margin: 1% 0;
+}
+
+.shoji_bottom {
+  margin-bottom: 3%;
+}
+
+.shoji_left {
+  margin: 0 0.5% 0 2%;
+}
+
+.shoji_right {
+  margin: 0 2% 0 0.5%;
+}
+
+.geo_pattern {
+  box-sizing: border-box;
+}
+
+#geo_pattern1 {
+  width: 32.66%;
+  height: 65.32%;
+  border-right: thick solid #000;
+  border-bottom: thick solid #000;
+}
