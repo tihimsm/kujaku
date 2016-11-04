@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+.curtain {
+  top: 0px;
+  width: 50%;
+  background-color: black;
+}
+
+.curtain_left {
+  left: 0px;
+}
+
+.curtain_right {
+  right: 0px;
+}
+
+.shoji_half {
+  position: relative;
+  width: 49.5%;
+  background-color: #fff;
+  float: left;
+}
+
+.shoji_raw {
+  width: 96%;
+  height: 30.66%;
+  margin-left: 2%;
+}
+
+.shoji_top {
+  margin-top: 3%;
+}
+
+.shoji_middle {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.shoji_bottom {
+  margin-bottom: 3%;
+}
+
+.shoji_left {
+  margin-right: 0.5%;
+}
+
+.shoji_right {
+  margin-left: 0.5%;
+}
+
+$geo33: 33%;
+$geo2: 2%;
+$geo1: $geo2 / 2;
+$geo30: 30%;
+
+.geo_pattern {
+  background-color: #000;
+  position: absolute;
+}
+
+#geo_pattern1 {
+  left: $geo33;
+  width: $geo2;
+  height: 100%;
+}
+
+#geo_pattern2 {
+  top: $geo33 * 2;
+  width: $geo33;
+  height: $geo2;
+}
+
+#geo_pattern3 {
+  left: $geo33 + 1%;
+  top: $geo33;
+  width: $geo33;
+  height: $geo2;
+}
+
+#geo_pattern4 {
+  left: $geo33 * 2;
+  top: $geo33;
+  width: $geo2;
+  height: ($geo33 * 2) + 1%;
+}
+
+#geo_pattern5 {
+  left: $geo33;
+  width: $geo2;
+  height: $geo33;
+}
+
+#geo_pattern6 {
+  top: $geo33;
+  width: $geo33 * 2;
+  height: 2%;
+}
+
+#geo_pattern7 {
+  left: $geo33 * 2;
+  top: $geo33;
+  width: $geo2;
+  height: ($geo33 * 2) + 1%;
+}
+
+#geo_pattern8 {
+  left: $geo33 * 2;
+  width: $geo2;
+  height: 100%;
+}
+
+#geo_pattern9 {
+  left: $geo33;
+  top: 50%;
+  width: ($geo33 * 2) + 1%;
+  height: $geo2;
+}
+
+#geo_pattern10 {
+  left: $geo33;
+  top: 50%;
+  width: $geo2;
+  height: 50%;
+}
+
+#geo_pattern11 {
+  left: $geo33 * 2;
+  width: $geo2;
+  height: 50%;
+}
+
+#geo_pattern12 {
+  left: $geo33;
+  top: 50%;
+  width: ($geo33 * 2) + 1%;
+  height: $geo2;
+}
+
+#geo_pattern13 {
+  left: $geo33;
+  top: 50%;
+  width: $geo2;
+  height: 50%;
+}
+
+#geo_pattern14 {
+  left: $geo33 * 2;
+  width: $geo2;
+  height: 50%;
+}
+
+#geo_pattern15 {
+  top: 50%;
+  width: 100%;
+  height: $geo2;
+}
+
+#geo_pattern16 {
+  left: $geo33;
+  top: 50%;
+  width: $geo2;
+  height: 50%;
+}
+
+#geo_pattern17 {
+  left: $geo33;
+  width: $geo2;
+  height: 100%;
+}
+
+#geo_pattern18 {
+  top: 50%;
+  width: $geo33 * 2;
+  height: $geo2;
+}
+
+#geo_pattern19 {
+  left: $geo33 * 2;
+  top: 50%;
+  width: $geo2;
+  height: 50%;
+}
+
+#geo_pattern20 {
+  left: $geo30 / 2;
+  width: $geo1;
+  height: ($geo33 * 2) + 2%;
+}
+
+#geo_pattern21 {
+  top: $geo33 * 2;
+  width: $geo30 / 2;
+  height: $geo2;
+}
+
+#geo_pattern22 {
+  left: $geo30;
+  width: $geo1;
+  height: 100%;
+}
+
+#geo_pattern23 {
+  left: $geo30 * 1.5;
+  width: $geo1;
+  height: 50%;
+}
+
+#geo_pattern24 {
+  left: $geo30 + 1%;
+  top: 50%;
+  width: $geo30 * 1.75;
+  height: $geo2;
+}
+
+#geo_pattern25 {
+  left: $geo30 * 2.75;
+  width: $geo1;
+  height: 50%;
+}
+
+#geo_pattern26 {
+  left: $geo30 * 2;
+  top: 50%;
+  width: $geo1;
+  height: 50%;
+}
+
+#geo_pattern27 {
+  left: $geo30 / 2;
+  width: $geo1;
+  height: 100%;
+}
+
+#geo_pattern28 {
+  left: $geo30 / 2;
+  top: 50%;
+  width: $geo30;
+  height: $geo2;
+}
+
+#geo_pattern29 {
+  left: $geo30;
+  width: $geo1;
+  height: 50%;
+}
+
+#geo_pattern30 {
+  left: $geo30 * 1.5;
+  top: 50%;
+  width: $geo1;
+  height: 50%;
+}
+
+#geo_pattern31 {
+  left: $geo30 * 2;
+  width: $geo1;
+  height: 100%;
+}
+
+#geo_pattern32 {
+  left: $geo30 * 2.5;
+  width: $geo1;
+  height: 100%;
+}
+
+#geo_pattern33 {
+  left: $geo30 * 2.925;
+  top: 70%;
+  width: $geo1;
+  height: 30%;
+}
+
+#geo_pattern34 {
+  left: $geo30 * 2.925;
+  top: 70%;
+  width: ($geo30 / 2) - 1%;
+  height: $geo2;
+}
+
+#geo_pattern35 {
+  left: $geo30 / 2;
+  width: $geo1;
+  height: 100%;
+}
+
+#geo_pattern36 {
+  top: 50%;
+  width: $geo30 / 2;
+  height: $geo2;
+}
+
+#geo_pattern37 {
+  left: $geo30;
+  width: $geo1;
+  height: 50%;
+}
+
+#geo_pattern38 {
+  left: $geo30 * 1.5;
+  top: 50%;
+  width: $geo1;
+  height: 50%;
+}
+
+#geo_pattern39 {
+  left: $geo30;
+  top: 50%;
+  width: 100% - $geo30;
+  height: $geo2;
+}
+
+#geo_pattern40 {
+  left: $geo30 * 2.5;
+  width: $geo1;
+  height: 100%;
+}
+
+#geo_pattern41 {
+  left: $geo30 * 2.925;
+  width: $geo1;
+  height: 50%;
+}
+
+#geo_pattern42 {
+  left: $geo30 * 2;
+  width: $geo1;
+  height: 50%;
+}

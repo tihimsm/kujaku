@@ -1,0 +1,321 @@
+.curtain {
+  top: 0px;
+  width: 50%;
+  background-color: black;
+}
+
+.curtain_left {
+  left: 0px;
+}
+
+.curtain_right {
+  right: 0px;
+}
+
+.shoji_half {
+  position: relative;
+  width: 49.5%;
+  background-color: #fff;
+  float: left;
+}
+
+.shoji_raw {
+  width: 96%;
+  height: 30.66%;
+  margin-left: 2%;
+}
+
+.shoji_top {
+  margin-top: 3%;
+}
+
+.shoji_middle {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.shoji_bottom {
+  margin-bottom: 3%;
+}
+
+.shoji_left {
+  margin-right: 0.5%;
+}
+
+.shoji_right {
+  margin-left: 0.5%;
+}
+
+.geo_pattern {
+  background-color: #000;
+  position: absolute;
+}
+
+#geo_pattern1 {
+  left: 33%;
+  width: 2%;
+  height: 100%;
+}
+
+#geo_pattern2 {
+  top: 66%;
+  width: 33%;
+  height: 2%;
+}
+
+#geo_pattern3 {
+  left: 34%;
+  top: 33%;
+  width: 33%;
+  height: 2%;
+}
+
+#geo_pattern4 {
+  left: 66%;
+  top: 33%;
+  width: 2%;
+  height: 67%;
+}
+
+#geo_pattern5 {
+  left: 33%;
+  width: 2%;
+  height: 33%;
+}
+
+#geo_pattern6 {
+  top: 33%;
+  width: 66%;
+  height: 2%;
+}
+
+#geo_pattern7 {
+  left: 66%;
+  top: 33%;
+  width: 2%;
+  height: 67%;
+}
+
+#geo_pattern8 {
+  left: 66%;
+  width: 2%;
+  height: 100%;
+}
+
+#geo_pattern9 {
+  left: 33%;
+  top: 50%;
+  width: 67%;
+  height: 2%;
+}
+
+#geo_pattern10 {
+  left: 33%;
+  top: 50%;
+  width: 2%;
+  height: 50%;
+}
+
+#geo_pattern11 {
+  left: 66%;
+  width: 2%;
+  height: 50%;
+}
+
+#geo_pattern12 {
+  left: 33%;
+  top: 50%;
+  width: 67%;
+  height: 2%;
+}
+
+#geo_pattern13 {
+  left: 33%;
+  top: 50%;
+  width: 2%;
+  height: 50%;
+}
+
+#geo_pattern14 {
+  left: 66%;
+  width: 2%;
+  height: 50%;
+}
+
+#geo_pattern15 {
+  top: 50%;
+  width: 100%;
+  height: 2%;
+}
+
+#geo_pattern16 {
+  left: 33%;
+  top: 50%;
+  width: 2%;
+  height: 50%;
+}
+
+#geo_pattern17 {
+  left: 33%;
+  width: 2%;
+  height: 100%;
+}
+
+#geo_pattern18 {
+  top: 50%;
+  width: 66%;
+  height: 2%;
+}
+
+#geo_pattern19 {
+  left: 66%;
+  top: 50%;
+  width: 2%;
+  height: 50%;
+}
+
+#geo_pattern20 {
+  left: 15%;
+  width: 1%;
+  height: 68%;
+}
+
+#geo_pattern21 {
+  top: 66%;
+  width: 15%;
+  height: 2%;
+}
+
+#geo_pattern22 {
+  left: 30%;
+  width: 1%;
+  height: 100%;
+}
+
+#geo_pattern23 {
+  left: 45%;
+  width: 1%;
+  height: 50%;
+}
+
+#geo_pattern24 {
+  left: 31%;
+  top: 50%;
+  width: 52.5%;
+  height: 2%;
+}
+
+#geo_pattern25 {
+  left: 82.5%;
+  width: 1%;
+  height: 50%;
+}
+
+#geo_pattern26 {
+  left: 60%;
+  top: 50%;
+  width: 1%;
+  height: 50%;
+}
+
+#geo_pattern27 {
+  left: 15%;
+  width: 1%;
+  height: 100%;
+}
+
+#geo_pattern28 {
+  left: 15%;
+  top: 50%;
+  width: 30%;
+  height: 2%;
+}
+
+#geo_pattern29 {
+  left: 30%;
+  width: 1%;
+  height: 50%;
+}
+
+#geo_pattern30 {
+  left: 45%;
+  top: 50%;
+  width: 1%;
+  height: 50%;
+}
+
+#geo_pattern31 {
+  left: 60%;
+  width: 1%;
+  height: 100%;
+}
+
+#geo_pattern32 {
+  left: 75%;
+  width: 1%;
+  height: 100%;
+}
+
+#geo_pattern33 {
+  left: 87.75%;
+  top: 70%;
+  width: 1%;
+  height: 30%;
+}
+
+#geo_pattern34 {
+  left: 87.75%;
+  top: 70%;
+  width: 14%;
+  height: 2%;
+}
+
+#geo_pattern35 {
+  left: 15%;
+  width: 1%;
+  height: 100%;
+}
+
+#geo_pattern36 {
+  top: 50%;
+  width: 15%;
+  height: 2%;
+}
+
+#geo_pattern37 {
+  left: 30%;
+  width: 1%;
+  height: 50%;
+}
+
+#geo_pattern38 {
+  left: 45%;
+  top: 50%;
+  width: 1%;
+  height: 50%;
+}
+
+#geo_pattern39 {
+  left: 30%;
+  top: 50%;
+  width: 70%;
+  height: 2%;
+}
+
+#geo_pattern40 {
+  left: 75%;
+  width: 1%;
+  height: 100%;
+}
+
+#geo_pattern41 {
+  left: 87.75%;
+  width: 1%;
+  height: 50%;
+}
+
+#geo_pattern42 {
+  left: 60%;
+  width: 1%;
+  height: 50%;
+}
