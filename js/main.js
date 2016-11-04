@@ -1,5 +1,5 @@
 $(window).load(function(){
-  splash();
+  // splash();
   $(document).on('click', '#enter', function(){
     $(this).transition({
       opacity: 0
