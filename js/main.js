@@ -1,5 +1,5 @@
 $(window).load(function(){
-  // splash();
+  splash();
   $(document).on('click', '#enter', function(){
     $(this).transition({
       opacity: 0
@@ -84,7 +84,7 @@ function splash(){
                 opacity: 1,
               }, 3000);
               $('.curtain').transition({
-                opacity: 0.3,
+                opacity: 0.4,
               }, 500);
               $('#slide_cont').css('cursor', 'auto');
             });
